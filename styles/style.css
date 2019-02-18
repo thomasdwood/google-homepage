@@ -1,0 +1,44 @@
+/* Full Doc Styles */
+
+body {
+    font-family: sans-serif
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(61, 60, 60);
+}
+
+/* Top Bar Styles */
+
+#topbar  {
+    margin: 10px
+}
+
+#topbar div {
+    display: inline;
+}
+
+div.topbar-item {
+    padding: 0 10px 0 10px;
+}
+
+#topbar-leftside {
+    width: 80%;
+    display: inline-block;
+}
+
+#topbar-rightside {
+    float: right;
+}
+
+/* Content Area Styles */
+
+#content {
+    margin: 25px
+}
