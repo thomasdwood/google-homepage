@@ -9,33 +9,43 @@
         <title>Google</title>
     </head>
     <body>
-        <p>
-            <div id="topbar">
-                <div id="topbar-leftside">
-                    <div class="topbar-item"><a href="https://about.google.com">About</a></div>
-                    <div class="topbar-item"><a href="https://store.google.com">Store</a></div>
-                </div>
-                <div> </div>
-                <div id="topbar-rightside">
-                    <div class="topbar-item"><a href="https://mail.google.com">Gmail</a></div>
-                    <div class="topbar-item"><a href="https://www.google.com/imghp">Images</a></div>
-                    <div class="topbar-item"><a href="#">Btn Img</a></div>
-                    <div class="topbar-item"><a href="#">Bell</a></div>
-                    <div class="topbar-item"><a href="#">Pic Img</a></div>
-                </div>
+    
+         <div id="topbar">
+            <div class="leftside">
+                <div class="topbar-item"><a href="https://about.google.com">About</a></div>
+                <div class="topbar-item"><a href="https://store.google.com">Store</a></div>
             </div>
-
-            <div id="content">
-                <form>
-                    <div><img src="images/google_logo.png"></div>
-                    <div><input type="text" name="search-text"></div>
-                    <div>
-                        <input type="button" name="google" value="Google Search">
-                        <input type="button" name="lucky" value="I'm Feeling Lucky">
-                    </div>
-                </form>
+                
+            <div class="rightside">
+                <div class="topbar-item"><a href="https://mail.google.com">Gmail</a></div>
+                <div class="topbar-item"><a href="https://www.google.com/imghp">Images</a></div>
+                <div class="topbar-item"><a href="#">Btn Img</a></div>
+                <div class="topbar-item"><a href="#">Bell</a></div>
+                <div class="topbar-item"><a href="#">Pic Img</a></div>
             </div>
+        </div>
 
-        </p>
+        <div id="content">
+            <form>
+                <div><img id="googlelogo" src="images/google_logo.png" alt="Google Logo"></div>
+                <div id="searchbox"><input type="text" name="search-text"></div>
+                <div>
+                    <input type="button" name="google" value="Google Search">
+                    <input type="button" name="lucky" value="I'm Feeling Lucky">
+                </div>
+            </form>
+        </div>
+        <div id="footer">
+            <div class="leftside">
+                <div class="footer-item"><a href="#">Advertising</a></div>
+                <div class="footer-item"><a href="#">Business</a></div>
+            </div>
+            <div class="rightside">
+                <div class="footer-item"><a href="#">Privacy</a></div>
+                <div class="footer-item"><a href="#">Terms</a></div>
+                <div class="footer-item"><a href="#">Settings</a></div>
+            </div>
+        </div>
+    
     </body>
 </html>

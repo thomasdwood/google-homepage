@@ -1,7 +1,8 @@
 /* Full Doc Styles */
 
 body {
-    font-family: sans-serif
+    font-family: sans-serif;
+    font-size: small;
 }
 
 a {
@@ -17,7 +18,9 @@ a:hover {
 /* Top Bar Styles */
 
 #topbar  {
-    margin: 10px
+    margin: 25px;
+
+    color: rgba(0, 0, 0, 0.753)
 }
 
 #topbar div {
@@ -28,17 +31,88 @@ div.topbar-item {
     padding: 0 10px 0 10px;
 }
 
-#topbar-leftside {
+.leftside {
     width: 80%;
     display: inline-block;
 }
 
-#topbar-rightside {
+.rightside {
     float: right;
 }
 
 /* Content Area Styles */
 
 #content {
-    margin: 25px
+    margin-top: 120px;
+    padding: 30px;
+    text-align: center;
 }
+
+#content div {
+    display: inline-block;
+    margin: 0 auto;
+    width: 75%;
+    padding: 10px;
+}
+
+#googlelogo {
+    height: 92px;
+    width: 272px;
+}
+
+#content input[type=text] {
+    height: 40px;
+    width: 465px;
+    font-size: 1.5em;
+    font-weight: 300;
+    padding: 0 15px;
+}
+
+#content input[type=button] {
+    height: 35px;
+    width: 125px;
+    font-size: 1em;
+    color: rgb(80, 78, 78);
+    background-color: rgb(235, 235, 235);
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+    margin: 10px 5px;
+    font-weight: 700;
+}
+
+#searchbox {
+    border: 1px lightgray;
+    width: 475px;
+    height: 40px;
+    text-shadow: 5px;
+    padding-top: 5px;
+    
+}
+
+/* Footer area */
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(231, 229, 229);
+    width: 100%;
+    height: 20px;
+    padding: 10px;
+    
+}
+
+
+#footer div {
+    display: inline;
+    padding: 0 10px 0 10px;
+    vertical-align: middle;
+}
+
+.footer-item a {
+    margin-top: 20px;
+    color: grey;
+    padding-right: 10px;
+}
+
